@@ -76,20 +76,47 @@
          <div class="form_fill_button">
            <a href="/form">👂</a>  
          </div>
-    </body>
 
+
+         <!-- MODAL -->
+         <div class="modal" tabindex="-1" id="myModal" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Join the Family🌸.</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://image.flaticon.com/icons/svg/733/733558.svg" height="100px" width="100px" alt="">
+                    <p>Follow us on instagram and get access to more such amazing tools, and breeze through your college life.</p>
+                    <a href="https://www.instagram.com/vinnovateit/" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-outline-success">Follow</button></a>
+                </div>
+                <div class="modal-footer">
+                    
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
     <script>
 
         if (localStorage.getItem("groups_joined") == null) {
             localStorage.setItem("groups_joined",0)
         } 
 
+        if (localStorage.getItem("groups_joined") == "5") {
+            console.log("POP UP TRIGGERED")
+            $('#myModal').modal('show')
+        } 
         function joined_group() 
         {
             console.log("FUNCTION TRIGGERED")
             if (localStorage.getItem("groups_joined") < 5) {
                 console.log("INCREASE")
-                localStorage.setItem("groups_joined", localStorage.getItem("groups_joined") + 1);
+                localStorage.setItem("groups_joined", (parseFloat(localStorage.getItem("groups_joined")) + 1).toString());
             } else {
                 console.log("RESET")
                 localStorage.setItem("groups_joined", 0);
