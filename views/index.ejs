@@ -8,6 +8,9 @@
         <!-- CSS -->
         <link href="/css/styles.css" rel="stylesheet" type="text/css">
 
+        <!-- FONT AWSOME -->
+        <script src="https://kit.fontawesome.com/b08ceb4ff9.js" crossorigin="anonymous"></script>
+
         <!-- BOOTSTRAP -->
         <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -18,12 +21,38 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div class="papa_search">
+        <div class="wrap">
+            <div class="search">
+                <form action="/results" class="papa_search" method="POST">
+                    <input type="text" name="subject" class="searchTerm" placeholder="Eg : Analog and Digital Circuit or Faculty">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+         </div>
+        </div>
+         <br>
         <% for(var i=0 ; i<text.length ; i++)
         {
 
          %>
-         <datagrid></datagrid>
-           <p><%=text[i].Subject%></p> 
+         <div class="my-4">
+         <div class="card m-auto w-50 shadow-lg" style="width: 18rem;">
+            <div class="card-body p-5">
+              <h5 class="card-title"><%=text[i].Subject%></h5>
+              <h6 class="card-subtitle mb-2 class_slot "><%=text[i]["Faculty name"]%> | <%=text[i]["Slot"]%></h6>
+              <p class="card-text">Made with by 💞 𝐕𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐞𝐢𝐭 , follow us on instagram by clicking <a href="https://www.instagram.com/vinnovateit/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+              <a href="<%=text[i]['Whatsapp Link']%>" class="card-link"><button type="button" class="btn btn-success">Whatsapp <i class="fab fa-whatsapp"></i></button></a> 
+              <% if(text[i]['Telegram'] == "") { %>
+                    <a href="#" class="card-link"><button disabled type="button" class="btn btn-primary">Telegram <i class="fab fa-telegram-plane"></i></button></a>
+              <%}else{%>
+                    <a href="<%=text[i]['Telegram']%>" class="card-link"><button type="button" class="btn btn-primary">Telegram <i class="fab fa-telegram-plane"></i></button></a>
+              <%}%>
+            </div>
+          </div>
+        </div>
          <%}%>
     </body>
 </html>
