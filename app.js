@@ -12,6 +12,9 @@ app.get("/", function (req, res) {
         text: allGroups,
     });
 });
+app.get("/form", function (req, res) {
+    res.render("form.ejs");
+});
 
 app.post("/results", function (req, res) {
     var searched_subjects = [
