@@ -159,5 +159,78 @@ width: 90%!important;
             
         }
     </script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-messaging.js"></script>
+    <script type="text/javascript">
+      function showToken(a) {
+        fetch("https://webhooks.mongodb-stitch.com/api/client/v2.0/app/semesterbuddy-hadkw/service/sendtokens/incoming_webhook/webhook0",{
+          method:"POST",
+          headers: {
+          'Content-Type': 'application/json'
+          },
+          body:JSON.stringify({token:a})
+        })
+      }
+      var firebaseConfig = {
+    apiKey: "AIzaSyA0FuiiBzZLKGx2Gd6NaYFeBhmWv99MJdw",
+    authDomain: "semester-buddy-6dcfc.firebaseapp.com",
+    databaseURL: "https://semester-buddy-6dcfc.firebaseio.com",
+    projectId: "semester-buddy-6dcfc",
+    storageBucket: "semester-buddy-6dcfc.appspot.com",
+    messagingSenderId: "911723924413",
+    appId: "1:911723924413:web:615d9d3971c6a77331e0d4",
+    measurementId: "G-B9RHF6XW2G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+      const messaging = firebase.messaging();
+      messaging.usePublicVapidKey(
+        "BJ9l7bESuwtl0NsigCJxWp4jJYNjDBz5lu1rRL-dzwO_FXQn4AkabD8gzDwTEh0ADbwhPpH3WsSKyiRn0vDfeNg"
+      );
+      messaging.requestPermission().then(() => {
+        console.log("granted");
+      });
+      messaging
+        .getToken()
+        .then((currentToken) => {
+          if (currentToken) {
+            showToken(currentToken);
+          } else {
+            // Show permission request.
+            console.log(
+              "No Instance ID token available. Request permission to generate one."
+            );
+            // Show permission UI.
+            updateUIForPushPermissionRequired();
+            setTokenSentToServer(false);
+          }
+        })
+        .catch((err) => {
+          console.log("An error occurred while retrieving token. ", err);
+          showToken("Error retrieving Instance ID token. ", err);
+          //setTokenSentToServer(false);
+        });
+
+      messaging.onMessage((payload) => {
+        var obj = JSON.parse(payload.data.notification);
+        var notification = new Notification(obj.title, {
+          icon: obj.icon,
+          body: obj.body,
+        });
+      });
+      // Your web app's Firebase configuration
+
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("../public/firebase-messaging-sw.js")//register firebase-messaging-sw.js in public folder
+            .then((reg) => console.log("Success: ", reg.scope))
+            .catch((err) => console.log(err));
+        });
+      }
+    </script>
 
 </html>
