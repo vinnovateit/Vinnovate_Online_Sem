@@ -111,11 +111,20 @@
         <p class="card-text">Made with 💞 by 𝐕𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐞𝐢𝐭 , follow us on instagram by clicking <a
             href="https://www.instagram.com/vinnovateit/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <div class="row ">
+          <% if(text[i]['Telegram'] == "") { %>
+
+          <div class="col-lg-12 my-2 centrula">
+            <a target="_blank" href="<%=text[i]['Whatsapp Link']%>" onclick="joined_group()"
+              class="card-link m-auto"><button type="button" class="btn btn-success">Whatsapp <i
+                  class="fab fa-whatsapp"></i></button></a>
+          </div>
+          <% }else{ %>
           <div class="col-lg-6 my-2 centrula">
             <a target="_blank" href="<%=text[i]['Whatsapp Link']%>" onclick="joined_group()"
               class="card-link m-auto"><button type="button" class="btn btn-success">Whatsapp <i
                   class="fab fa-whatsapp"></i></button></a>
           </div>
+          <% } %>
           <div class="col-lg-6 my-2 centrula">
             <% if(text[i]['Telegram'] == "") { %>
             <div class="d-none">
