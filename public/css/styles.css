@@ -80,7 +80,7 @@ body {
     background-color: #ecf0f1;
     top: 0px;
     left: 0px;
-    border: 2px solid red;
+    border: 2px solid;
 }
 
 @media only screen and (max-width: 500px) {
@@ -103,15 +103,34 @@ body {
         background-color: #ecf0f1;
         top: 0px;
         left: 0px;
-        border: 2px solid red;
+        border: 2px solid;
     }
-    .mobile-card{
+    .mobile-card {
         height: 40%;
     }
-    .m-auto{
-        margin:0!important
+    .m-auto {
+        margin: 0 !important;
     }
-    .w-75{
-        width: 100%!important;
+    .w-75 {
+        width: 100% !important;
     }
+}
+
+.heading_name {
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.suddy_letter {
+    display: flex;
+    flex-flow: row;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
 }
