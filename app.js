@@ -24,10 +24,10 @@ app.post("/results", function (req, res) {
     ];
     var searched_subjects_noresult = [{
         "Sl.No": "410",
-        Subject: "Web mining",
-        "Faculty name": "Shashank mouli satapathy",
-        Slot: "F1",
-        "Whatsapp Link": "https://chat.whatsapp.com/HjyBmdmmbrw19Vwr0YfFDf",
+        Subject: "Sorry Course Not Found,",
+        "Faculty name": "NA",
+        Slot: "NA",
+        "Whatsapp Link": "NA",
         Telegram: "",
     }, ];
     // console.log(req.body.subject);
