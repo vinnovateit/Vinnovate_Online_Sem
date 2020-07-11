@@ -3302,5 +3302,254 @@
         "Slot": "F1",
         "Whatsapp Link": "https://chat.whatsapp.com/LWDPkBZQWzKBFgPtwYlXxj",
         "Telegram": ""
-    }
+    },
+  {
+    "Sl.No": "2020/07/11 12:01:14 PM GMT+5:30",
+    "Subject": "Java Programming",
+    "Faculty name": "Jaisankar N",
+    "Slot": "B2+TB2",
+    "Whatsapp Link": "https://chat.whatsapp.com/H7sn2xhgpVTBIEIM61HUwT",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 3:44:17 PM GMT+5:30",
+    "Subject": "DBMS",
+    "Faculty name": "Kuruva Lakshmanna",
+    "Slot": "D1",
+    "Whatsapp Link": "https://chat.whatsapp.com/BwXhTiIfWpgB3FTEvmB6my",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 4:23:16 PM GMT+5:30",
+    "Subject": "Transformation Techniques",
+    "Faculty name": "Prabhukumar",
+    "Slot": "F1",
+    "Whatsapp Link": "https://chat.whatsapp.com/Fc92FFVVQod5TbPpnIbY6s",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 4:29:10 PM GMT+5:30",
+    "Subject": "Data Mining",
+    "Faculty name": "Senthilkumar NC",
+    "Slot": "A1",
+    "Whatsapp Link": "https://chat.whatsapp.com/GwjEatGU3BXJQ2IxyQjxCA",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 4:35:20 PM GMT+5:30",
+    "Subject": "Machine Learning",
+    "Faculty name": "Durai Raj",
+    "Slot": "E1+E2",
+    "Whatsapp Link": "https://chat.whatsapp.com/C5oho4FZj3BLVzPMJTy05K",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 4:35:23 PM GMT+5:30",
+    "Subject": "Operating systems",
+    "Faculty name": "Rahul Raman",
+    "Slot": "F2",
+    "Whatsapp Link": "https://chat.whatsapp.com/H2DZoIBo6HbCbXzUMjf2T5",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 4:41:08 PM GMT+5:30",
+    "Subject": "Big Data",
+    "Faculty name": "SATHIYAMOORTHY E",
+    "Slot": "E1",
+    "Whatsapp Link": "https://chat.whatsapp.com/HlFSemyfw81KPEzUhJAa4S",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 4:49:28 PM GMT+5:30",
+    "Subject": "Internet and Web Programming(IWP)",
+    "Faculty name": "Naveen Kumar N",
+    "Slot": "B1",
+    "Whatsapp Link": "https://chat.whatsapp.com/K3bmv9DJM9h1etRZmUy42d",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 4:50:06 PM GMT+5:30",
+    "Subject": "Strength Of Materials",
+    "Faculty name": "Velu M",
+    "Slot": "D2+TD2",
+    "Whatsapp Link": "https://chat.whatsapp.com/KhfSvgRz5WdAag8TGiZ5Dx",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 5:04:54 PM GMT+5:30",
+    "Subject": "NLP",
+    "Faculty name": "SHARMILA BANU",
+    "Slot": "E1",
+    "Whatsapp Link": "https://chat.whatsapp.com/J8vI3W3cZWX0SfyrSKL451",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 5:05:21 PM GMT+5:30",
+    "Subject": "Welding engineering",
+    "Faculty name": "Arivazhagan n",
+    "Slot": "F2",
+    "Whatsapp Link": "https://chat.whatsapp.com/Kwo893D4GBx4xt4L265TUw",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 5:26:14 PM GMT+5:30",
+    "Subject": "CAO",
+    "Faculty name": "SELVI M",
+    "Slot": "B2",
+    "Whatsapp Link": "https://chat.whatsapp.com/JtE1OUDqXeJ2OLjgmLBe7A",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 5:31:08 PM GMT+5:30",
+    "Subject": "CAO",
+    "Faculty name": "SELVI M",
+    "Slot": "B2",
+    "Whatsapp Link": "https://chat.whatsapp.com/JtE1OUDqXeJ2OLjgmLBe7A",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 5:48:58 PM GMT+5:30",
+    "Subject": "Mom",
+    "Faculty name": "Sridharan K",
+    "Slot": "A2",
+    "Whatsapp Link": "https://chat.whatsapp.com/Lji5UiFT48k9iY7KVrFIOE",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 5:58:45 PM GMT+5:30",
+    "Subject": "APPLIED NUMERICAL METHODS (ANM) MAT3005",
+    "Faculty name": "SANJAY KUMAR MOHANTY",
+    "Slot": "A1+TA1+TAA1+V1",
+    "Whatsapp Link": "https://chat.whatsapp.com/EyAoGhL969SCOlO0xpLp4i",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 6:12:01 PM GMT+5:30",
+    "Subject": "face(apt) | sjt 513 | E2+TE2",
+    "Faculty name": ".....",
+    "Slot": "E2+TE2",
+    "Whatsapp Link": "https://chat.whatsapp.com/DPY1PdGe6AvHtzjsuxotI0",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 6:24:14 PM GMT+5:30",
+    "Subject": "Mobile Application Development",
+    "Faculty name": "Srinivasan",
+    "Slot": "A1+TA1",
+    "Whatsapp Link": "https://chat.whatsapp.com/JDE1CpQj4aELFi1IZu7bGe",
+    "Telegram": "https://t.me/joinchat/PrHp2k7nv8nPqSBqVX6cSw"
+  },
+  {
+    "Sl.No": "2020/07/11 6:26:38 PM GMT+5:30",
+    "Subject": "Introduction to Innovative Projects",
+    "Faculty name": "Ramesh M Thamankar",
+    "Slot": "TC2",
+    "Whatsapp Link": "https://chat.whatsapp.com/LVxBrml79My1I8NiFVd0av",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 6:26:52 PM GMT+5:30",
+    "Subject": "Mobile Application Development",
+    "Faculty name": "Srinivasan",
+    "Slot": "A1+TA1",
+    "Whatsapp Link": "https://chat.whatsapp.com/JDE1CpQj4aELFi1IZu7bGe",
+    "Telegram": "https://t.me/joinchat/PrHp2k7nv8nPqSBqVX6cSw"
+  },
+
+  {
+    "Sl.No": "2020/07/11 8:29:03 PM GMT+5:30",
+    "Subject": "STS3301 MB311",
+    "Faculty name": "FACE",
+    "Slot": "D2",
+    "Whatsapp Link": "https://chat.whatsapp.com/HN4lVM9tJ77EvyopLcNkiC",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 8:30:55 PM GMT+5:30",
+    "Subject": "OOAD C1",
+    "Faculty name": "THIPPA REDDY",
+    "Slot": "C1",
+    "Whatsapp Link": "https://chat.whatsapp.com/I7jHUUjJze20B80GxXMJIX",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 8:58:57 PM GMT+5:30",
+    "Subject": "ANM",
+    "Faculty name": "SUBRAMANYAM REDDY",
+    "Slot": "C1+TC1",
+    "Whatsapp Link": "https://chat.whatsapp.com/Kh0iDGpD4881lq3CS1hpOp",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 9:00:32 PM GMT+5:30",
+    "Subject": "ANM",
+    "Faculty name": "SUBRAMANYAM REDDY",
+    "Slot": "C1+TC1",
+    "Whatsapp Link": "https://chat.whatsapp.com/Kh0iDGpD4881lq3CS1hpOp",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 9:31:35 PM GMT+5:30",
+    "Subject": "GERMAN",
+    "Faculty name": "ARATI KUMARI",
+    "Slot": "B1",
+    "Whatsapp Link": "https://chat.whatsapp.com/FLkvswMwCuRDqipjvOozNV",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 9:35:54 PM GMT+5:30",
+    "Subject": "Web Security",
+    "Faculty name": "Arivoli",
+    "Slot": "E1",
+    "Whatsapp Link": "https://chat.whatsapp.com/Bt3m9Ax9C1k1wdTKK1ZqgS",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 9:44:03 PM GMT+5:30",
+    "Subject": "Refrigeration and Air conditioning",
+    "Faculty name": "Anoop Kumar",
+    "Slot": "A1+TA1+TAA1+V1",
+    "Whatsapp Link": "https://chat.whatsapp.com/IbAxyq3FruQ6rtHtINebAw",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 9:59:41 PM GMT+5:30",
+    "Subject": "STS 3201 FACE SJT807",
+    "Faculty name": "Face",
+    "Slot": "D1",
+    "Whatsapp Link": "https://chat.whatsapp.com/F0Gma7O39duBswNvMXJmm9",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 10:07:38 PM GMT+5:30",
+    "Subject": "Web technologies",
+    "Faculty name": "Sureka s",
+    "Slot": "G2",
+    "Whatsapp Link": "https://chat.whatsapp.com/IjnhMl9gS5248GhehIklBt",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 10:08:15 PM GMT+5:30",
+    "Subject": "TARP",
+    "Faculty name": "Jaisakthi SM",
+    "Slot": "TA-1",
+    "Whatsapp Link": "https://chat.whatsapp.com/DQflEaMwzXtKbrJd5BJRHU",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 10:09:46 PM GMT+5:30",
+    "Subject": "DBMS",
+    "Faculty name": "Dharmendra singh rajput",
+    "Slot": "A2",
+    "Whatsapp Link": "https://chat.whatsapp.com/DHGdLyNJRle5KoDPGj9nsB",
+    "Telegram": ""
+  },
+  {
+    "Sl.No": "2020/07/11 10:18:52 PM GMT+5:30",
+    "Subject": "Web mining",
+    "Faculty name": "Gopalkrishnan T",
+    "Slot": "F2",
+    "Whatsapp Link": "https://chat.whatsapp.com/FsohwAKH3azLkLiHNGXb9T",
+    "Telegram": ""
+  }
 ]
