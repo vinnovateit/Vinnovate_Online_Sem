@@ -119,4 +119,18 @@ body {
 .heading_name {
     font-size: 4rem;
     color: white;
+    display: flex;
+    flex-flow: row;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.suddy_letter {
+    display: flex;
+    flex-flow: row;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
 }
