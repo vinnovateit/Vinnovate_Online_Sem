@@ -132,10 +132,7 @@
           </div>
           <% } %>
           <div class="col-lg-6 my-2 centrula">
-            <% if(text[i]['Telegram'] == "") { %>
-            <a target="_blank" href="#" class="card-link m-auto"><button disabled type="button"
-                class="btn btn-primary">Telegram <i class="fab fa-telegram-plane"></i></button></a>
-            <%}else{%>
+            <% if(text[i]['Telegram'] != "") {%>
             <a target="_blank" href="<%=text[i]['Telegram']%>" class="card-link m-auto"><button type="button"
                 class="btn btn-primary">Telegram <i class="fab fa-telegram-plane"></i></button></a>
             <%}%>
