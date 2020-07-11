@@ -80,7 +80,7 @@ body {
     background-color: #ecf0f1;
     top: 0px;
     left: 0px;
-    border: 2px solid red;
+    border: 2px solid ;
 }
 
 @media only screen and (max-width: 500px) {
@@ -103,7 +103,7 @@ body {
         background-color: #ecf0f1;
         top: 0px;
         left: 0px;
-        border: 2px solid red;
+        border: 2px solid ;
     }
     .mobile-card{
         height: 40%;
