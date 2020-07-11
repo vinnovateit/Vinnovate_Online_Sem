@@ -13,7 +13,7 @@ body {
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open + Sans);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 .search {
     width: 100%;
@@ -80,10 +80,10 @@ body {
     background-color: #ecf0f1;
     top: 0px;
     left: 0px;
-    border: 2px solid red;
+    border: 2px solid;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .box_show {
         width: 70%;
     }
@@ -103,6 +103,20 @@ body {
         background-color: #ecf0f1;
         top: 0px;
         left: 0px;
-        border: 2px solid red;
+        border: 2px solid;
     }
+    .mobile-card {
+        height: 40%;
+    }
+    .m-auto {
+        margin: 0 !important;
+    }
+    .w-75 {
+        width: 100% !important;
+    }
+}
+
+.heading_name {
+    font-size: 4rem;
+    color: white;
 }
