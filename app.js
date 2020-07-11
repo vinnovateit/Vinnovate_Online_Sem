@@ -23,7 +23,7 @@ app.post("/results", function (req, res) {
 
     ];
     var searched_subjects_noresult = [{
-        "Sl.No": "410",
+        "Sl.No": "401",
         Subject: "Sorry Course Not Found,",
         "Faculty name": "NA",
         Slot: "NA",
