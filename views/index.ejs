@@ -221,16 +221,16 @@ width: 90%!important;
           body: obj.body,
         });
       });
-      // Your web app's Firebase configuration
+      // // Your web app's Firebase configuration
 
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker
-            .register("../public/firebase-messaging-sw.js")//register firebase-messaging-sw.js in public folder
-            .then((reg) => console.log("Success: ", reg.scope))
-            .catch((err) => console.log(err));
-        });
-      }
+      // if ("serviceWorker" in navigator) {
+      //   window.addEventListener("load", () => {
+      //     navigator.serviceWorker
+      //       .register("./firebase-messaging-sw.js")//register firebase-messaging-sw.js in public folder
+      //       .then((reg) => console.log("Success: ", reg.scope))
+      //       .catch((err) => console.log(err));
+      //   });
+      // }
     </script>
 
 </html>
