@@ -107,9 +107,11 @@
     <div class="card m-auto box_show w-75 shadow-lg" style="width: 18rem;">
       <div class="card-body p-5 text-center mobile-card">
         <h5 class="card-title"><%=text[i].Subject%></h5>
-        <% if(text[i]['Faculty Name']) { %>
+        <% if(text[i]['Faculty Name'] != "") { %>
         <h6 class="card-subtitle mb-2 class_slot "><%=text[i]["Faculty name"]%> | <%=text[i]["Slot"]%></h6>
-        <% } %>
+        <% }else{%>
+          <h6 class="card-subtitle mb-2 class_slot "><%=text[i]["Slot"]%></h6>
+          <%}%>
         <p class="card-text">Made with 💞 by 𝐕𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐞𝐢𝐭 , follow us on instagram by clicking <a
             href="https://www.instagram.com/vinnovateit/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <div class="row ">
