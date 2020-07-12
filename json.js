@@ -6376,14 +6376,6 @@ var text = [
         Telegram: "",
     },
     {
-        "Sl.No": "2020/07/11 5:31:08 PM GMT+5:30",
-        Subject: "CAO",
-        "Faculty name": "SELVI M",
-        Slot: "B2",
-        "Whatsapp Link": "https://chat.whatsapp.com/JtE1OUDqXeJ2OLjgmLBe7A",
-        Telegram: "",
-    },
-    {
         "Sl.No": "2020/07/11 5:48:58 PM GMT+5:30",
         Subject: "Mom",
         "Faculty name": "Sridharan K",
@@ -6648,7 +6640,14 @@ var text = [
         "Whatsapp Link": "https://chat.whatsapp.com/ICxnZTeuGgI82CFMiAL6JR",
         Telegram: "",
     },
-
+    {
+        "Sl.No": "2020/07/12 7:15:03 PM GMT+5:30",
+        Subject: "Lean Enterprises and New Manufacturing Technology",
+        "Faculty name": "Kishore Kumar Mohato",
+        Slot: "F2+TF2",
+        "Whatsapp Link": "https://chat.whatsapp.com/ElHzLsGHZgC0U1DacDiSZ2",
+        Telegram: "",
+    },
 ];
 
 module.exports = text;
